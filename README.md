@@ -1,4 +1,4 @@
-# Lab 6 - Continuous Integration with Jenkins
+# Kush Lab 6 - Continuous Integration with Jenkins
 
 In this lab, you will explore how to perform Continuous Integration(CI) using Jenkins. You are highly recommended to use team virtual machine for this lab. </br>
 Jenkins has a wide range of functionalities that facilitate the software development process. In this lab, we will focus on the Continuous Integration aspect, which means updates to the code base are continuously tested to ensure the program's quality.</br>

@@ -19,6 +19,8 @@ pipeline {
                 # sudo /PATH/TO/CONDA init
                 source mlip/bin/activate
 
+                pip install pandas
+
                 # TODO Complete the command to run pytest
                 # sudo /PATH/TO/CONDA run -n <Envinronment Name> <Command you want to run>
                 pytest

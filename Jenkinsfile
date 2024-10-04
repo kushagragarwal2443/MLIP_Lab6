@@ -17,15 +17,17 @@ pipeline {
 
                 # TODO fill out the path to conda here
                 # sudo /PATH/TO/CONDA init
-                source mlip/bin/activate
 
-                pip list
+                python3 -m venv kush_mlip
+                source kush_mlip/bin/activate
 
-                pip install pandas
+                pip install pytest numpy pandas scikit-learn
 
                 # TODO Complete the command to run pytest
                 # sudo /PATH/TO/CONDA run -n <Envinronment Name> <Command you want to run>
                 pytest
+
+                source deactivate
 
                 echo 'pytest not runned'
                 # exit 1 #comment this line after implementing Jenkinsfile
